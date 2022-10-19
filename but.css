@@ -1,0 +1,51 @@
+div {
+	border:  2px solid blue;
+	border-radius: 26px ;
+	width: 700px;
+	height:300px;
+
+}
+
+input {
+	border:  2px solid blue;
+	border-radius: 26px ;
+	width: 400px;
+	height: 50px;
+	background-color: black;
+	color: blue;
+
+
+
+}
+
+.b1 {
+	border:  2px solid blue;
+	border-radius: 26px ;
+	background-color: blue;
+	width:220px;
+	height: 60px;
+	
+
+
+}
+.b2 {
+	border:  2px solid blue;
+	border-radius: 26px ;
+	background-color: blue;
+	margin-left: 10px;
+	width:220px;
+	height: 60px;
+
+
+
+
+}
+h1 {
+	text-align: center;
+	color: blue;
+}
+
+button:hover {
+	background: black;
+	color:  blue;
+}

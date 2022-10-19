@@ -1,0 +1,50 @@
+div {
+	border:  2px solid red;
+	border-radius: 26px ;
+	width: 700px;
+	height:300px;
+
+}
+
+input {
+	border:  2px solid red;
+	border-radius: 26px ;
+	width: 400px;
+	height: 50px;
+	background-color: black;
+	color: blue;
+
+
+
+}
+
+.b1 {
+	border:  2px solid red;
+	border-radius: 26px ;
+	background-color: red;
+	width:220px;
+	height: 60px;
+	
+
+
+}
+.b2 {
+	border:  2px solid red;
+	border-radius: 26px ;
+	background-color: red;
+	margin-left: 10px;
+	width:220px;
+	height: 60px;
+
+
+
+
+}
+h1 {
+	text-align: center;
+	color: red;
+}
+button:hover {
+	background: black;
+	color:  red;
+}
