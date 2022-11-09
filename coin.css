@@ -12,3 +12,9 @@ div {
 h1 {
 	color:white;
 }
+
+p {
+	color:white;
+	font-weight: bold;
+	font-size:15px;
+}
