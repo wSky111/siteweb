@@ -10,8 +10,9 @@ function calcul_moyenne ()
     var somme= Number (note1)*Number(coef1)+ Number(note2)*(coef2)+ Number(note3)*Number(coef3);
 
     document.write ("Voici la somme: " + somme+"<br>");
+    var sommecoef= Number(coef1)+Number(coef2)+Number(coef3)
 
-    var moyenne= somme/3;
+    var moyenne= somme/sommecoef;
 
     document.write ("Voici la moyenne: "+ moyenne+"<br>");
 
