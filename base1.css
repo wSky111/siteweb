@@ -1,0 +1,19 @@
+body {
+	background-color: grey;
+}
+
+button {
+	border-color: 2px solid white;
+	border-radius: 20px;
+	background-color: black;
+	width: 300px;
+	height: 100px;
+	margin-bottom: 10px;
+	margin-left: 800px;
+	color: white;
+
+}
+button:hover {
+	background-color: transparent;
+	color: white;
+}

@@ -1,0 +1,32 @@
+1)afficher tout les marques des voitures
+SELECT MARQUE 
+FROM VOITURE
+
+2)afficher les marques et la couleur de toute les voitures
+SELECT `marque` , `couleur` 
+FROM `voiture`
+
+3) afficher les immatriculations des voitures gris
+SELECT `immatriculation` 
+FROM `voiture` 
+WHERE `couleur` = 'gris'
+
+4) Afficher toutes les informations sur les clients qui habitent dans la ville de Paris
+SELECT *
+FROM `clients`
+WHERE `ville` = 'paris'
+
+5)Afficher toutes les informations sur les voitures ayant un kilometrage <10000
+SELECT * 
+FROM `voiture` 
+WHERE `kilometrage` <15000
+
+6)affichers les immatriculations des voitures diesel ayant un nombre de porte =3
+SELECT `immatriculation`
+FROM `voiture` 
+WHERE `nombre_porte` = '3' and `carburant` = 'diesel'
+
+7)Afficher l'immatriculation , la marque, le modele de toute les voitures mercedes
+SELECT `immatriculation`,`marque`,`modele`,`couleur`
+FROM `voiture` 
+WHERE `marque` = 'mercedes'
