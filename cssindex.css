@@ -1,0 +1,175 @@
+body {
+	font-family: verdana, Calibri, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(pay3.jpg);
+	background-repeat: no-repeat;
+	background-size: 1920px 970px;
+	
+}
+h1 {
+	color:white;
+}
+div
+
+nav > ul{
+	margin:0px;
+	padding:0px;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav > ul > li {
+	float: left;
+}
+
+.submenu{
+	display:none;
+}
+
+nav input[type=checkbox]{
+	display: none;
+}
+
+.menu-mobile{
+	display: none;
+}
+
+ nav{
+ 	width: 100%;
+ 	background-color: #424558; 
+
+ }
+
+ nav > ul > li {
+ 	float:left;
+ 	position: relative;
+ }
+
+ nav > ul::after {
+ 	content: "";
+ 	display: table;
+ 	clear:both;
+ }
+nav a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav > ul > li > a { 
+	padding:20px 30px;
+	color: #FFF;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+
+.submenu li a {
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width:270px;
+}
+
+.menu-html:hover{
+	border-top:5px solid #E44D26;
+	background-color: rgba(228,77,38,0.15);
+}
+
+
+.menu-css:hover{
+	border-top:5px solid #0070bb;
+	background-color: rgba(000,112,192,0.15);
+}
+.menu-js:hover{
+	border-top:5px solid #F1DC4F;
+	background-color: rgba(241,211,79,0.15);
+}
+.menu-contact:hover{
+	border-top:5px solid #BBB;
+	background-color: rgba(210,10,220,0.15);
+}
+
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+.menu-html .submenu{
+	background-color: RGB(230,100,40);
+}
+.menu-css .submenu{
+	background-color: RGB(000,160,240);
+}
+.menu-js .submenu{
+	background-color: RGB(251,216,99);
+}
+.menu-contact .submenu{
+	background-color: RGB(210,121,222);
+}
+.menu-contact .submenu{
+	background-color: RGB(210,121,222);
+}
+.menu-conception .submenu{
+	background-color: RGB(77,33,222);
+}
+.menu-pres .submenu{
+	background-color: RGB(129,189,222);
+}
+.menu-mission .submenu{
+	background-color: RGB(147,11,22);
+}
+.menu-bdd .submenu{
+	background-color: RGB(190,21,107);
+}
+.menu-php .submenu{
+	background-color: RGB(223,65,96);
+}
+
+
+.submenu li:hover a{
+	color: #EEE;
+	font-weight:bold;
+}
+
+.menu-html .submenu li:hover{
+	background-color: rgb(210,77,60);
+}
+.menu-css .submenu li:hover{
+	background-color: rgb(000,115,200);
+}
+.menu-js .submenu li:hover{
+	background-color: rgb(200,165,75);
+}
+.menu-contact .submenu li:hover{
+	background-color: rgb(140,30,110);
+}
+.menu-bdd .submenu li:hover{
+	background-color: rgb(190,70,140);
+}
+.menu-php .submenu li:hover{
+	background-color: rgb(30,40,80);
+}
+.menu-pres .submenu li:hover{
+	background-color: rgb(10,156,125);
+	}
+.menu-conception .submenu li:hover{
+	background-color: rgb(180,30,110);
+}
+.menu-mission .submenu li:hover{
+	background-color: rgb(150,89,224);
+}
+
+
+}
