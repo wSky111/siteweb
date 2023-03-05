@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="factu.js"></script>
+    <link rel="stylesheet" type="text/css" href="test2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture</title>
+   
+</head>
+<body>
+<div class="principale">
+    <div class="photo"><img src="R.png" class="tail"></div>
+    <div class="bandeau">
+        <div class="compagnie"><input type="text" placeholder="Nom de la compagnie" class="com"><br>
+            <input type="text" placeholder="Adresse postale" class="poste"><br>
+            <input type="text" placeholder="Details du contact" class="contact"></div>
+
+            <div class="date">
+                <h1>Facture</h1>
+            <input type="date" placeholder="date" class="da"><br>      
+            <input type="text" placeholder="Numéro de la Facture" class="cat"></div>
+    </div>
+    <br>
+    <div class="petit"><input type="text" placeholder="Conditions de paiement" class="pay"></div>
+
+    <div class="central">
+        <div class="destinataire"><h3>Destinataire</h3>
+            
+            <input type="text" class="dest" placeholder="Nom"><br>
+            <input type="text" class="dest" placeholder="Nom de la société"><br>
+            <input type="text" class="dest" placeholder="Adresse postale"><br>
+            <input type="tel" class="dest" placeholder="Téléphone"><br>
+            <input type="email" class="dest" placeholder="Email"><br>
+        </div>
+            <div class="Envoyez"><h3>Envoyez à</h3>
+                
+                <input type="text" class="dest" placeholder="Nom"><br>
+            <input type="text" class="dest" placeholder="Nom de la société"><br>
+            <input type="text" class="dest" placeholder="Adresse postale"><br>
+            <input type="tel" class="dest" placeholder="Téléphone"><br>
+            <input type="email" class="dest" placeholder="Email"><br>
+                
+            
+            
+            
+            </div>
+
+    </div>
+    <br>
+
+    <div class="">
+        <table class="tableau">
+            <tr>
+                <td class="princ"><h10>Description</h10></td><td class="princ"><h11>Quantité</h11>
+                </td><td class="princ"><h12>Prix Unitaire</h12></td><td class="princ"><h13>TOTAL</h13></td>
+            </tr>
+            <tr>
+                <td class="des"><input type="text" class="descr" placeholder="desc1"></td>
+                <td class="taille2"><input class="quant" name="quant" type="text" placeholder="0" id="Q1"></td>
+                <td class="taille3"><input type="text" class="pu" name="pu" placeholder="0" id="p1" name="p1"></td>
+                <td class="to"><input type="text" class="totalligne" name="total" readonly="readonly" value="0.0" ></td>
+            </tr>
+
+            <tr>
+                <td class="des"><input type="text" class="descr" placeholder="desc2"></td>
+                <td class="taille2"><input class="quant" type="text" placeholder="0" id="Q2"></td>
+                <td class="taille3"> <input type="text" class="pu" placeholder="0" id="p2"></td>
+                <td class="to"><input type="text" class="totalligne" name="total" readonly="readonly" value="0.0" ></td>
+            </tr>
+
+            <tr>
+                <td class="des" id="modeleLigne"><input type="text" class="descr" placeholder="desc3"></td>
+                <td class="taille2"><input class="quant" type="text" placeholder="0" id="Q3"></td>
+                <td class="taille3"> <input type="text" class="pu" placeholder="0" id="p3"></td>
+                <td class="to"><input type="text" class="totalligne" name="total" readonly="readonly" value="0.0" ></td>
+            </tr>
+
+            <tr>
+                <td class="des" id="LastLigne"><input type="text" class="descr" placeholder="desc4"></td>
+                <td class="taille2"><input class="quant" type="text" placeholder="0" id="Q4"></td>
+                <td class="taille3"> <input type="text" class="pu" placeholder="0" id="p4"></td>
+                <td class="to"><input type="text" class="totalligne" name="total"  value="0.0" ></td>
+            </tr>
+        </table>
+    </div>
+    <div class="total">
+        <div class="remarque"><p>Remarques, notes et instructions de paiement</p></div>
+        <div class="tableau2">
+            <table class="sous">
+                <tr><td class="tailles">SOUS-TOTAL</td><td><h20 class="result19" id="result19"></h20></td></tr>
+                <tr><td class="taille">REMISE</td><td class="st"><input type="text" id="remise" placeholder="remise" class="remise"></td></tr>
+                <tr><td class="taille">SOUS-TOTAL MOINS LES REMISES</td><td class="st"><h20 class="result7" id="result7"></h20></td></tr>
+                <tr><td class="taille">TAUX D'IMPOSITION</td><td class="st"><input type="text" class="taux" id="taux" placeholder="Taux"></td></tr>
+                <tr><td class="taille">TAXE TOTALE</td><td class="st"><h20 class="result9" id="result9"></h20></td></tr>
+                <tr><td class="taille">EXPEDITION, MANUTENTION</td><td class="st"><input type="text" id="exp" placeholder="expedition" class="exp"></td></tr>
+                <tr><td class="taille8">SOLDE DU</td><td class="st"><h21 class="result11" id="result11"></h21></td></tr>
+            </table>
+        </div>
+    <div class="buton">
+        <button onclick="calculer ()">Calculer</button><button onclick="ajout()">Ajouter une ligne</button><button onclick="remplir()">remplir automatiquement</button><button class="reset" onclick="annuler()">Annuler</button>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    </div>
+
+</div>
+    
+</body>
+</html>

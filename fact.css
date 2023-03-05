@@ -1,0 +1,230 @@
+.photo {
+    width: 15%;
+    height: 15%;
+    float: left;
+}
+img {
+    float: left;
+}
+.compagnie {
+    margin-left: 10px;
+    float: left;
+}
+.date {
+    margin-left: 1200px;
+}
+.principale {
+    border: 1px solid black;
+    width:1400px ;
+    height:1200px ;
+    margin-left: 230px ;
+    margin-top: 20px ;
+    
+
+}
+.da {
+    border: none;
+    width: 180px;
+    height: 20px;
+    margin-top: 4px;
+}
+.cat {
+    border: none;
+    width: 180px;
+    height: 20px;
+    margin-top: 15px;
+
+}
+.tableau {
+    width:1393px ;
+    height: 200px;
+    margin-left:2px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    
+
+}
+.des {
+    width: 400px;
+}
+.princ {
+    height: 30px;
+    background-color: darkgrey;
+    border: none;
+    text-align: center;
+}
+.central {
+    float: none;
+    margin-left: 4px;
+    margin-top: 2px;
+    height: 200px;
+    
+}
+.com {
+    border:none;
+    margin-left:6px;
+    margin-top: 10px;
+    width: 200px;
+    height: 22px;
+    font-size: 20px;
+}
+.poste {
+    margin-left:6px;
+    margin-top: 20px;
+    border: none;
+    width: 200px;
+    height: 20px;
+    
+
+}
+.contact {
+    margin-left:6px;
+    margin-top: 20px;
+    border: none;
+    width: 200px;
+    height: 20px;
+
+}
+.bandeau {
+    margin-left: 4px;
+    margin-top: 2px;
+    height: 200px;
+}
+.Envoyez {
+    margin-left: 4px;
+    margin-top: 2px;
+    width: 680px;
+    float: left;
+}
+.destinataire {
+    margin-left: 4px;
+    margin-top: 2px;
+    width: 700px;
+    float: left;
+}
+h4 {
+    margin-bottom: 4px;
+}
+.pay {
+    margin-left: 800px;
+    width: 200px;
+    border: none;
+}
+.remarque {
+    float: left;
+    margin-bottom: 3px;
+}
+.tableau2 {
+    margin-top: 10px;
+    margin-left: 1067px;
+    width: 380px;
+    height: 260px;
+}
+.des {
+    width: 600px;
+    border: 1px solid black;
+}
+.to {
+    width: 145px;
+    border: 1px solid black;
+}
+.dest {
+    width: 200px;
+    margin-top: 4px;
+    border: none;
+}
+.descr {
+    width: 580px;
+    border: none;
+}
+.taille {
+    width: 342px;
+    height: 20px;
+}
+button {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.taille2 {
+    width: 330px;
+    border: 1px solid black;
+}
+.quant {
+    width: 330px;
+    border: none;
+}
+.taille3 {
+    width: 340px;
+    border: 1px solid black;
+}
+.pu {
+    border: none;
+    width: 340px;
+}
+.sous {
+    width: 330px;
+}
+.st {
+    width: 145px;
+}
+.remise {
+    border: none;
+    font-size: 16px;
+}
+.tailles {
+    width: 342px;
+    height: 40px;
+
+}
+.taux {
+    border: none;
+    font-size: 16px;
+
+}
+
+button {
+    width:200px ;
+    height: 30px;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 4px;
+    border:1 px solid black;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+h3 {
+    border-bottom: 4px solid black;
+    width: 600px;
+}
+.tail{
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.taille8 {
+    width: 342px;
+    height: 20px;
+    border-bottom: 1px solid black ;
+    border-top: 1px solid black;
+}
+.exp {
+    border: none;
+    font-size: 16px;
+
+}
+.h21 {
+    border-bottom: 1px solid black;
+}
+
+.buton {
+    margin-top: 120px;
+}
+.total {
+    margin-top: 60px;
+}
+
