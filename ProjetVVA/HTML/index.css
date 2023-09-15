@@ -1,0 +1,155 @@
+.banniere{
+    background-color: black;
+    height: 80px;
+    width: auto;
+    margin-left: 10px;
+}
+.Title{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.connexion{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+}
+.connexion:hover{
+    background-color: gray;
+    color: white;
+}
+.bantitle{
+    width: 500px;
+    height: 60px;
+    float: left;
+    margin-left: 760px;
+}
+.banbutton{
+    float: left;
+    margin-left: 470px;
+    margin-top: 25px;
+}
+.mobilier{
+    height: 650px;
+    margin-top: 20px;
+    margin-left:12px ;
+}
+.chalet{
+    border: 1px solid black;
+    width: 1850px;
+    height: 300px ;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.appartement{
+    border: 1px solid black;
+    width: 920px;
+    height: 300px;
+    margin-top: 5px; 
+    margin-left: 20px;
+    float: left;
+}
+.studio{
+    border: 1px solid black;
+    width: 920px;
+    height: 300px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 8px;
+
+}
+.txtchalet{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    width: 100px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.poschalet{
+    position: relative;
+    margin-left: 1750px;
+    margin-top: 260px;
+}
+.txtchalet:hover{
+    font-size: 34px;
+    text-decoration: underline;
+}
+.imgchalet{
+    width: 1850px;
+    height: 300px; 
+    position: absolute;  
+}
+.txtappartement{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    width: 100px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.posappartement{
+    position: relative;
+    margin-left: 715px;
+    margin-top: 260px;
+}
+.txtappartement:hover{
+    font-size: 34px;
+    text-decoration: underline;
+}
+.imgappartement{
+    width:  920px;
+    height: 300px ;
+    position: absolute;
+}
+
+.txtstudio{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    width: 100px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.posstudio{
+    position: relative;
+    margin-left: 820px;
+    margin-top: 260px;
+}
+.txtstudio:hover{
+    font-size: 34px;
+    text-decoration: underline;
+}
+.imgstudio{
+    width:  920px;
+    height: 300px ;
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    background-color: black;
+    height: 30px;
+    width: auto;
+    margin-left: 10px;
+}
+.menuchalet{
+    color: white;
+    font-size: 22px;
+    margin-left: 400px;
+}
+.menuappartement{
+    color: white;
+    font-size: 22px;
+    margin-left: 400px;
+}
+.menustudio{
+    color: white;
+    font-size: 22px;
+    margin-left: 400px;
+}
+
